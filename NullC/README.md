@@ -1,5 +1,0 @@
-# NullC & Nullc
-
-**NullC** is basicly a C framework or cipher for C if you wanna write it you do it in .null files and it has been writen in 2 files 1st in .cpp file and 2nd in python It has no file for like NullC and Nullc but is kinda wired together and is basicly the same thing you can use it with nullc command in the Null shell emulator. This cipher has been writen partially for fun and chaos in the file but also as a harder human veryfication for mine discord so you can decrypt it in the docs fot NullOS and send to the email as said in NullOS folder.
-
-**Nullc** Is basicily a pipeline for your project in .null. Its the thing that lets you run your project in the NullC language. The pipeline works like this ---> 1st the python file is opened and runned thats the part responsible for your input and stuff like geting the filename to ~/Documents than it uses array of the pre-seted words and makes the file to .c thatt compiles with gcc and thats the cpp files work it uses gcc to compile the program .py program made than after the compilation the file is removed witch leavs your project with .null and ELF files.

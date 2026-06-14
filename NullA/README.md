@@ -1,3 +1,0 @@
-## NullA
-
-**NullA** is a anti DDoS and DoS programm I plan on making it kernel level defense becouse no one did it before and I think its a very smart way to make some defens it should work like thix --> it will scan the traffic and if it detects traffic from IP that is not on whitelist.txt it will doesent accept the packet or traffic and drop the packet if it detect 100+pings/s it will shutdown wifi for 10mins. **BUT** this version is only scaning it on os level so it doesent drop the ip or sm there is no whitlist.txt for now and probably will not be for longer time but we (or just me) are working on the NullOS actively you should be able to set it up by using Null even the compilation so its just one block enjoy.
