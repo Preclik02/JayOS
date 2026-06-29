@@ -53,6 +53,10 @@ automated_script() {
         systemctl start systemd-networkd-wait-online.service &>/dev/null
         sleep 3 # Give the network configuration table a brief moment to settle
 
+        # Force sync pacman databases before dropping into repositories
+        printf 'Synchronizing package databases...\n'
+        pacman -Sy
+
         # Clone your custom secure environment toolset
         printf 'Fetching toolset from github.com/preclik02/null...\n'
         git clone https://github.com/jaylubiny/null.git /tmp/null-toolset
